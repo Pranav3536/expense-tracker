@@ -1,4 +1,6 @@
 streamlit
 pandas
+requests
+fastapi
+uvicorn
 mysql-connector-python
-
