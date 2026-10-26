@@ -2,7 +2,8 @@ import streamlit as st
 from datetime import datetime
 import requests
 
-API_URL = "http://localhost:8000"
+
+API_URL = st.secrets["API_URL"].rstrip("/")
 
 
 def add_update_tab():
